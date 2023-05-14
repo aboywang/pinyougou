@@ -1,0 +1,282 @@
+    .main {
+        height: 465px;
+    }
+
+    .focus {
+        float: left;
+        margin-top: 10px;
+        margin-left: 220px;
+        height: 455px;
+        width: 721px;
+        background-color: purple;
+    }
+
+    .newsflash {
+        float: right;
+        margin-top: 10px;
+        height: 455px;
+        width: 250px;
+    }
+
+    .news {
+        height: 165px;
+        border: 1px solid #e8e8e7;
+    }
+
+    .news .news-hd {
+        height: 33px;
+        line-height: 33px;
+        font-size: 14px;
+        text-indent: 16px;
+        border-bottom: 1px dotted #e8e8e7;
+    }
+
+    .news .news-hd a {
+        float: right;
+        font-size: 14px;
+        margin-right: 15px;
+    }
+
+    .news .news-hd a::after {
+        font-family: 'icomoon';
+        content: '\e920';
+        vertical-align: middle;
+
+    }
+
+    .news .news-bd {
+        height: 130px;
+        padding: 5px 0px 5px 15px;
+    }
+
+    .news .news-bd ul li {
+        overflow: hidden;
+        height: 24px;
+        line-height: 24px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .lifestyle {
+        position: relative;
+        overflow: hidden;
+        height: 210px;
+        border: 1px solid #e8e8e7;
+    }
+
+    .lifestyle em {
+        display: block;
+        position: absolute;
+        left: 114px;
+        width: 12px;
+        height: 15px;
+        background-image: url(../images/jian.jpg);
+    }
+
+    .lifestyle ul {
+        width: 252px;
+    }
+
+    .lifestyle ul li {
+        float: left;
+        width: 63px;
+        height: 70px;
+        text-align: center;
+        border-right: 1px solid #e8e8e7;
+        border-bottom: 1px solid #e8e8e7;
+    }
+
+    .lifestyle ul li i {
+        display: inline-block;
+        margin-top: 12px;
+        width: 22px;
+        height: 26px;
+        background: url(../images/icons.png) no-repeat -17px -15px;
+    }
+
+    .bargin {
+        height: 75px;
+        margin-top: 5px;
+    }
+
+    /* recom模块 */
+    .recom {
+        margin-top: 11px;
+        height: 163px;
+        text-align: center;
+        background-color: #ebebeb;
+    }
+
+    .recom-hd {
+        padding-top: 31px;
+        height: 163px;
+        width: 206px;
+        background-color: #5c5251;
+    }
+
+    .recom-bd ul li {
+        position: relative;
+        float: left;
+        width: 248px;
+        height: 163px;
+    }
+
+    .recom-bd ul li:nth-child(-n+3)::after {
+        position: absolute;
+        content: '';
+        top: 10px;
+        right: 0px;
+        width: 1px;
+        height: 145px;
+        background-color: #ddd;
+    }
+
+    /* love模块 */
+    .love {
+        margin-top: 20px;
+        height: 270px;
+    }
+
+    .love-nav {
+        height: 38px;
+        line-height: 38px;
+        font-size: 18px;
+    }
+
+    .love-nav a {
+        float: right;
+        font-size: 12px;
+        margin-right: 30px;
+    }
+
+    .love-nav a::after {
+        font-family: 'icomoon';
+        content: '\ea2e';
+    }
+
+    .love-main {
+        height: 233px;
+        border: 1px solid #ededed;
+    }
+
+    .love-main ul li {
+        position: relative;
+        float: left;
+        padding-top: 10px;
+        width: 199px;
+        height: 233px;
+        text-align: center;
+    }
+
+    .love-main ul li:nth-child(-n+5)::after {
+        position: absolute;
+        content: '';
+        top: 161px;
+        right: 0;
+        display: block;
+        width: 1px;
+        height: 62px;
+        background-color: #ededed;
+    }
+
+    .love-main ul li p {
+        margin-top: 10px;
+    }
+
+    .love-main ul li em {
+        display: block;
+        padding-right: 50px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #df3033;
+    }
+
+    .love-main ul li em i {
+        font-size: 14px;
+    }
+
+    /* floor模块 */
+    .box-hd {
+        margin-top: 20px;
+        height: 38px;
+        line-height: 38px;
+        border-bottom: 2px solid #c81623;
+    }
+
+    .box-hd h3 {
+        float: left;
+        font-size: 18px;
+        color: #c81623;
+        font-weight: 400;
+    }
+
+    .tab_list ul {
+        float: right;
+    }
+
+    .tab_list ul li {
+        float: left;
+        font-size: 12px;
+    }
+
+    .tab_list ul li a {
+        padding: 0 10px;
+    }
+
+    .box-bd {
+        height: 360px;
+    }
+
+    .tab_list_item>div {
+        float: left;
+        height: 360px;
+    }
+
+    .cols_210 {
+        width: 210px;
+        text-align: center;
+    }
+
+    .cols_210 ul {
+        margin-left: 13px;
+        text-align: center;
+    }
+
+    .cols_210 ul li:nth-child(odd) {
+        margin-right: 12px;
+    }
+
+    .cols_210 ul li {
+        float: left;
+        width: 86px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 12px;
+        text-align: center;
+        border-bottom: 1px solid #ededed;
+    }
+
+    .cols_210 img {
+        margin-top: 15px;
+    }
+
+    .cols_329 {
+        width: 329px;
+    }
+
+    .cols_221 {
+        width: 221px;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .cols_219 {
+        width: 219px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .bb {
+        /* 一般情况下，a如果包含有宽度的盒子，a需要转为块级元素 */
+        display: block;
+        border-bottom: 1px solid #ccc;
+    }

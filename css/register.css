@@ -1,0 +1,145 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    padding-top: 16px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.register_area {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+}
+
+.register_area h3 {
+    height: 41px;
+    line-height: 41px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 12px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #ececec;
+}
+
+.register_area .login {
+    float: right;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.register_area .login a {
+    color: #cb323b;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 30px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.reg_form ul li .inp {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li .error {
+
+    font-size: 12px;
+    color: #c81523;
+}
+
+.reg_form ul li .success {
+    color: green;
+}
+
+.reg_form .icon_error,
+.reg_form .icon_success {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-top: -2px;
+    background: url(../images/error.png) no-repeat;
+}
+
+.reg_form .icon_success {
+    background: url(../images/success.png) no-repeat;
+}
+
+.safe {
+    margin-left: 167px;
+    font-size: 12px;
+}
+
+.safe em {
+    display: inline-block;
+    padding: 0 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.safe .ruo {
+    margin-left: 5px;
+    background-color: #de1111;
+}
+
+.safe .zhong {
+    background-color: #40b83f;
+}
+
+.safe .qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    margin-top: 50px;
+}
+
+.agree input {
+    margin: 0 10px 2px 85px;
+    vertical-align: middle;
+}
+
+.agree a {
+    margin-left: 10px;
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    margin-top: 30px;
+    margin-left: 87px;
+    color: #fff;
+    background-color: #c81623;
+}
+
+.mod_copyright {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mod_copyright .links a {
+    padding: 0 10px;
+}
+
+.mod_copyright .copyright {
+    margin-top: 16px;
+    line-height: 20px;
+}
